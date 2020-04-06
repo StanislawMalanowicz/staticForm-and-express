@@ -6,13 +6,13 @@ const debug = require('debug')('app');
 const morgan = require('morgan');
 const path = require('path')
 
-app.use(morgan('combined'))
-app.use(express.static('public'));
+app.use(morgan('tiny'))
+app.use(express.static(path.join(__dirname, '/public/')));
 app.use(bodyParser.urlencoded({ extended: false }));
-console.log("path: ",path);
-// app.get('/', function(req, res){
-//     res.sendFile(path.join(__dirname, 'public', 'index.html'))
-// })
+// console.log("path: ",path);
+app.get('/', function(req, res){
+    res.sendFile(path.join(__dirname, '/views/', '/index.html'))
+})
 
 app.post("/submit-form", (req, res) => {
   const username = req.body.username;
