@@ -9,33 +9,31 @@ const path = require('path');
 
 app.use(morgan('tiny'));
 app.use(express.static(path.join(__dirname, '/public/')));
-app.use(
-  '/css',
-  express.static(path.join(__dirname, '/node_modules/bootstrap/dist/css')),
-);
-app.use(
-  '/js',
-  express.static(path.join(__dirname, '/node_modules/bootstrap/dist/js')),
-);
-app.use(
-  '/js',
-  express.static(path.join(__dirname, '/node_modules/jquery/dist')),
-);
+app.use('/css', express.static(path.join(__dirname, '/node_modules/bootstrap/dist/css')));
+app.use('/js', express.static(path.join(__dirname, '/node_modules/bootstrap/dist/js')));
+
+app.use('/css', express.static(path.join(__dirname, '/node_modules/bootstrap-material-design/dist/css')));
+app.use('/js', express.static(path.join(__dirname, '/node_modules/bootstrap-material-design/dist/js')));
+
+app.use('/js', express.static(path.join(__dirname, '/node_modules/jquery/dist')));
 app.use(bodyParser.urlencoded({ extended: false }));
-// console.log("path: ",path);
+
+app.set('views', './src/views');
+app.set('view engine', 'ejs');
+
+const dataObj = { title: 'Mgr Doctor' };
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '/views/', '/index.html'));
+  res.render('index', dataObj);
 });
 
-app.post('/submit-form', (req, res) => {
+app.post('/submit-form', (req) => {
   const { username } = req.body;
-  // ...
-  console.log('data: ', username);
-  //   res.end();
+
+  debug('data: ', username);
 });
 
 app.listen(3000, () => {
-  console.log(
+  debug(
     chalk.blue('server is working at ', chalk.red('https://localhost:3000')),
   );
 });

@@ -13,21 +13,26 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "bootstrap": "^4.4.1",
+    "bootstrap-material-design": "^4.1.2",
     "chalk": "^4.0.0",
     "debug": "^2.6.6",
+    "ejs": "^3.0.2",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2"
   },
-  "nodeConfig":{
-    "restartable":"rs",
-    "ignore": ["node_modules/**/node_modules"],
-    "delay":"2500"
+  "nodeConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500"
   }
 }
