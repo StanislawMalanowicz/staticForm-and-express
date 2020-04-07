@@ -9,8 +9,8 @@ const path = require('path');
 
 app.use(morgan('tiny'));
 app.use(express.static(path.join(__dirname, '/public/')));
-app.use('/css', express.static(path.join(__dirname, '/node_modules/bootstrap/dist/css')));
-app.use('/js', express.static(path.join(__dirname, '/node_modules/bootstrap/dist/js')));
+app.use('/css', express.static(path.join(__dirname, '/node_modules/bootstrap3/dist/css')));
+app.use('/js', express.static(path.join(__dirname, '/node_modules/bootstrap3/dist/js')));
 
 app.use('/css', express.static(path.join(__dirname, '/node_modules/bootstrap-material-design/dist/css')));
 app.use('/js', express.static(path.join(__dirname, '/node_modules/bootstrap-material-design/dist/js')));
