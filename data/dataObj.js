@@ -1,96 +1,96 @@
 const albums = [
   {
-    name: "Radiohead",
+    name: 'Radiohead',
     albums: [
       {
-        title: "The King of Limbs",
+        title: 'The King of Limbs',
         songs: [
           {
-            title: "Bloom",
-            length: "5:15",
+            title: 'Bloom',
+            length: '5:15',
           },
           {
-            title: "Morning Mr Magpie",
-            length: "4:41",
+            title: 'Morning Mr Magpie',
+            length: '4:41',
           },
           {
-            title: "Little by Little",
-            length: "4:27",
+            title: 'Little by Little',
+            length: '4:27',
           },
           {
-            title: "Feral",
-            length: "3:13",
+            title: 'Feral',
+            length: '3:13',
           },
           {
-            title: "Lotus Flower",
-            length: "5:01",
+            title: 'Lotus Flower',
+            length: '5:01',
           },
           {
-            title: "Codex",
-            length: "4:47",
+            title: 'Codex',
+            length: '4:47',
           },
           {
-            title: "Give Up the Ghost",
-            length: "4:50",
+            title: 'Give Up the Ghost',
+            length: '4:50',
           },
           {
-            title: "Separator",
-            length: "5:20",
+            title: 'Separator',
+            length: '5:20',
           },
         ],
         description:
           '\n\tThe King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12" vinyl releases on 28 March, a wider digital release via AWAL, and a special "newspaper" edition on 9 May 2011. The physical editions were released through the band\'s Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.\n      ',
       },
       {
-        title: "OK Computer",
+        title: 'OK Computer',
         songs: [
           {
-            title: "Airbag",
-            length: "4:44",
+            title: 'Airbag',
+            length: '4:44',
           },
           {
-            title: "Paranoid Android",
-            length: "6:23",
+            title: 'Paranoid Android',
+            length: '6:23',
           },
           {
-            title: "Subterranean Homesick Alien",
-            length: "4:27",
+            title: 'Subterranean Homesick Alien',
+            length: '4:27',
           },
           {
-            title: "Exit Music (For a Film)",
-            length: "4:24",
+            title: 'Exit Music (For a Film)',
+            length: '4:24',
           },
           {
-            title: "Let Down",
-            length: "4:59",
+            title: 'Let Down',
+            length: '4:59',
           },
           {
-            title: "Karma Police",
-            length: "4:21",
+            title: 'Karma Police',
+            length: '4:21',
           },
           {
-            title: "Fitter Happier",
-            length: "1:57",
+            title: 'Fitter Happier',
+            length: '1:57',
           },
           {
-            title: "Electioneering",
-            length: "3:50",
+            title: 'Electioneering',
+            length: '3:50',
           },
           {
-            title: "Climbing Up the Walls",
-            length: "4:45",
+            title: 'Climbing Up the Walls',
+            length: '4:45',
           },
           {
-            title: "No Surprises",
-            length: "3:48",
+            title: 'No Surprises',
+            length: '3:48',
           },
           {
-            title: "Lucky",
-            length: "4:19",
+            title: 'Lucky',
+            length: '4:19',
           },
           {
-            title: "The Tourist",
-            length: "5:24",
+            title: 'The Tourist',
+            length: '5:24',
           },
         ],
         description:
@@ -99,105 +99,105 @@ const albums = [
     ],
   },
   {
-    name: "Portishead",
+    name: 'Portishead',
     albums: [
       {
-        title: "Dummy",
+        title: 'Dummy',
         songs: [
           {
-            title: "Mysterons",
-            length: "5:02",
+            title: 'Mysterons',
+            length: '5:02',
           },
           {
-            title: "Sour Times",
-            length: "4:11",
+            title: 'Sour Times',
+            length: '4:11',
           },
           {
-            title: "Strangers",
-            length: "3:55",
+            title: 'Strangers',
+            length: '3:55',
           },
           {
-            title: "It Could Be Sweet",
-            length: "4:16",
+            title: 'It Could Be Sweet',
+            length: '4:16',
           },
           {
-            title: "Wandering Star",
-            length: "4:51",
+            title: 'Wandering Star',
+            length: '4:51',
           },
           {
             title: "It's a Fire",
-            length: "3:49",
+            length: '3:49',
           },
           {
-            title: "Numb",
-            length: "3:54",
+            title: 'Numb',
+            length: '3:54',
           },
           {
-            title: "Roads",
-            length: "5:02",
+            title: 'Roads',
+            length: '5:02',
           },
           {
-            title: "Pedestal",
-            length: "3:39",
+            title: 'Pedestal',
+            length: '3:39',
           },
           {
-            title: "Biscuit",
-            length: "5:01",
+            title: 'Biscuit',
+            length: '5:01',
           },
           {
-            title: "Glory Box",
-            length: "5:06",
+            title: 'Glory Box',
+            length: '5:06',
           },
         ],
         description:
-          "\n\tDummy is the debut album of the Bristol-based group Portishead. Released in August 22, 1994 on Go! Discs, the album earned critical acclaim, winning the 1995 Mercury Music Prize. It is often credited with popularizing the trip-hop genre and is frequently cited in lists of the best albums of the 1990s. Although it achieved modest chart success overseas, it peaked at #2 on the UK Album Chart and saw two of its three singles reach #13. The album was certified gold in 1997 and has sold two million copies in Europe. As of September 2011, the album was certified double-platinum in the United Kingdom and has sold as of September 2011 825,000 copies.\n      ",
+          '\n\tDummy is the debut album of the Bristol-based group Portishead. Released in August 22, 1994 on Go! Discs, the album earned critical acclaim, winning the 1995 Mercury Music Prize. It is often credited with popularizing the trip-hop genre and is frequently cited in lists of the best albums of the 1990s. Although it achieved modest chart success overseas, it peaked at #2 on the UK Album Chart and saw two of its three singles reach #13. The album was certified gold in 1997 and has sold two million copies in Europe. As of September 2011, the album was certified double-platinum in the United Kingdom and has sold as of September 2011 825,000 copies.\n      ',
       },
       {
-        title: "Third",
+        title: 'Third',
         songs: [
           {
-            title: "Silence",
-            length: "4:58",
+            title: 'Silence',
+            length: '4:58',
           },
           {
-            title: "Hunter",
-            length: "3:57",
+            title: 'Hunter',
+            length: '3:57',
           },
           {
-            title: "Nylon Smile",
-            length: "3:16",
+            title: 'Nylon Smile',
+            length: '3:16',
           },
           {
-            title: "The Rip",
-            length: "4:29",
+            title: 'The Rip',
+            length: '4:29',
           },
           {
-            title: "Plastic",
-            length: "3:27",
+            title: 'Plastic',
+            length: '3:27',
           },
           {
-            title: "We Carry On",
-            length: "6:27",
+            title: 'We Carry On',
+            length: '6:27',
           },
           {
-            title: "Deep Water",
-            length: "1:31",
+            title: 'Deep Water',
+            length: '1:31',
           },
           {
-            title: "Machine Gun",
-            length: "4:43",
+            title: 'Machine Gun',
+            length: '4:43',
           },
           {
-            title: "Small",
-            length: "6:45",
+            title: 'Small',
+            length: '6:45',
           },
           {
-            title: "Magic Doors",
-            length: "3:32",
+            title: 'Magic Doors',
+            length: '3:32',
           },
           {
-            title: "Threads",
-            length: "5:45",
+            title: 'Threads',
+            length: '5:45',
           },
         ],
         description:
@@ -208,12 +208,10 @@ const albums = [
 ];
 
 const dataObj = {
-  title: "My Favourites albums",
+  title: 'My Favourites albums',
   navigationList: [
-    { title: "one", link: "/one" },
-    { title: "radiohead", link: "/radiohead" },
-    { title: "portishead", link: "/portishead" },
-    { title: "albums", link: "/albums" },
+    { title: 'radiohead', link: '/radiohead' },
+    { title: 'portishead', link: '/portishead' },
   ],
   albums,
 };
