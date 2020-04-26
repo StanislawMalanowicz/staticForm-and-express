@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "DEBUG=* nodemon app.js",
+    "start": "DEBUG=app,app:* nodemon app.js",
     "lint": "eslint app.js"
   },
   "author": "",
@@ -20,6 +20,7 @@
     "ejs": "^3.0.2",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
+    "mongodb": "^3.5.6",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.2",
     "pug": "^2.0.4"

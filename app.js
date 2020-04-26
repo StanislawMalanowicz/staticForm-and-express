@@ -27,9 +27,9 @@ app.use('/js', express.static(path.join(__dirname, '/node_modules/jquery/dist'))
 app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
-const portisheadsRouter = require('./routers/portisheadsRouter');
-const albumRouter = require('./routers/albumRouter');
-const adminRouter = require('./routers/adminRouter')();
+const portisheadsRouter = require('./routers/portisheadsRouter')(dataObj);
+const albumRouter = require('./routers/albumRouter')(dataObj);
+const adminRouter = require('./routers/adminRoutes')();
 
 
 app.use('/albums', albumRouter);

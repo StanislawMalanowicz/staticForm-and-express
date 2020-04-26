@@ -14,6 +14,7 @@ module.exports = {
     ecmaVersion: 2018,
   },
   rules: {
-    "comma-dangle": 0
+    "comma-dangle": 1,
+    // "semi": 1
   },
 };
