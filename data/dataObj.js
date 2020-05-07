@@ -207,13 +207,6 @@ const albums = [
   },
 ];
 
-const dataObj = {
-  title: 'My Favourites albums',
-  navigationList: [
-    { title: 'radiohead', link: '/radiohead' },
-    { title: 'portishead', link: '/portishead' },
-  ],
-  albums,
-};
 
-module.exports = dataObj;
+
+module.exports = albums;
