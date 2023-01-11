@@ -16,7 +16,7 @@
     "bootstrap-material-design": "^4.1.2",
     "bootstrap3": "^3.3.5",
     "chalk": "^4.0.0",
-    "debug": "^2.6.6",
+    "debug": "^3.1.0",
     "ejs": "^3.0.2",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
